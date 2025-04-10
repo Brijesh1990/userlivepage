@@ -57,9 +57,13 @@ padding: 5px 0px;
  list-style-type: none;
  color: white;   
 }
+.telephone
+{
+animation: 2s infinite pulse;    
+}
 @media only screen and (min-width:320px) and (max-width:480px)
 {
-    body 
+body 
 {
 margin: 0;
 padding: 0;    
@@ -95,6 +99,7 @@ display: block !important;
  margin-left: 0  !important;   
  text-align: center;
  font-size: 28px !important;   
+ animation: infinite bounce 2s;
 }
 .create-account 
 {
